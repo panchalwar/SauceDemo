@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.sauceDemo.TestPackage.TC08_VerifyToApplyTheFilter">
+        <methods>
+          <include name="LogoutSetUp"/>
+          <include name="VerifyFilters"/>
+          <include name="LoginSetUp"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestPackage.TC08_VerifyToApplyTheFilter -->
+      <class name="com.sauceDemo.TestPackage.TC09_VerifyToCheckThe_About">
+        <methods>
+          <include name="LogoutSetUp"/>
+          <include name="VerifyAbout"/>
+          <include name="LoginSetUp"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestPackage.TC09_VerifyToCheckThe_About -->
+      <class name="com.sauceDemo.TestPackage.TC07_VerifyLogOutFunctionality">
+        <methods>
+          <include name="VerifyLogout"/>
+          <include name="LogoutSetUp"/>
+          <include name="LoginSetUp"/>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestPackage.TC07_VerifyLogOutFunctionality -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
